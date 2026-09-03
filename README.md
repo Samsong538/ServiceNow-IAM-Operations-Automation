@@ -22,23 +22,28 @@ Before running the script, configure your ServiceNow Personal Developer Instance
 
 1. Clone the Repository:
 
-    ```git clone https://github.com/your-username/servicenow-iam-automation.git
+```
+git clone https://github.com/your-username/servicenow-iam-automation.git
 cd servicenow-iam-automation
 ```
 2. Set Up Virtual Environment:
 
-```python -m venv .venv
+```
+python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
 3. Install Dependencies:
-   ```pip install requests
-   ```
+
+```
+pip install requests
+```
 
 ## Usage
 1. Open iam_request_automation.py and set your credentials using raw string literals to prevent string corruption from special characters:
  
-   ```INSTANCE_URL = "https://your-instance.service-now.com"
+```
+INSTANCE_URL = "https://your-instance.service-now.com"
 CLIENT_ID = "YOUR_CLIENT_ID"
 CLIENT_SECRET = r'''YOUR_CLIENT_SECRET'''
 USERNAME = "your_api_username"
@@ -46,7 +51,9 @@ PASSWORD = r'''YOUR_API_PASSWORD'''
 ```
 
 2. Run the automation script:
-```python iam_request_automation.py
+
+```
+python iam_request_automation.py
 ```
 
 ## ServiceNow Prerequisites & Configuration
