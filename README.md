@@ -52,7 +52,7 @@ Before running the automation script, create and order the target catalog item i
 ![ServiceNow PAM Request Form](Requestformandinputvalidation.png)
 *Figure 1: Submitting the Privileged Access Request (PAM/IAM) catalog item with user variables.*
 
-![ServiceNow Request Order Confirmation](Orderregnumber.png)
+![ServiceNow Request Order Confirmation](Orderreqnumber.png)
 *Figure 2: Order confirmation showing generated Request ID (`REQ0010001`).*
 
 ### 2. OAuth Application Registry Setup
